@@ -1,0 +1,15 @@
+Este repositorio esta destinado unicamente para subir archivos relacionados con el proyecto que hemos escojido
+de manera conjunta, con el fin de cumplir con el objetivo final del proyecto.
+
+INSTRUCCIONES PARA BAJAR EL REPOSITORIO:
+1)Abrir en una carpeta destinada al proyecto el git BASH
+2)En el git BASH insertar el comando git (git clone https://github.com/julianforero19/Proyecto_Parking.git)
+
+INSTRUCCIONES PARA SUBIR O MODIFICAR EL REPOSITORIO:
+3)Insertar los archivos y/o hacer las modificaciones que desea realizar o subir en el repositorio
+4)Insertar el comando git add . para adjuntar los archivos al commit
+5)Insertar el comando git commit -m "comentario para el commit"
+6)Realizar un git pull para verificar que no hay archivos nuevos en el repositorio y que esto genere un conflicto
+7)Insertar el comando git push para subir todo lo realizado en el repositorio
+
+Con estos pasos se podra subir los archivos al repositorio, si tiene algun tipo de problema porfavor informarselo a lider.
