@@ -1,0 +1,368 @@
+<HTML>
+<HEAD>
+<TITLE>PEDIDO</TITLE>
+</HEAD>
+<BODY bgcolor=""#ffffff"" text=""#000000"">
+<TABLE WIDTH=100% CELLPADDING=1 BORDER=2>
+<TR>
+<TD VALIGN=TOP BGCOLOR="darkblue" ><B><FONT SIZE=5 COLOR="white" FACE="Arial">PEDIDO&nbsp;</FONT></B></TD>
+</TR>
+</TABLE>
+<TABLE WIDTH=100% CELLPADDING=2 BORDER=2>
+<TR>
+<TD VALIGN=TOP WIDTH=20%% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Logical Entity Name&nbsp;</FONT></B></TD>
+<TD><FONT SIZE=2 FACE="Arial">PEDIDO&nbsp;</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP WIDTH=20%% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Default Table Name&nbsp;</FONT></B></TD>
+<TD><FONT SIZE=2 FACE="Arial">PEDIDO&nbsp;</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP WIDTH=20%% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Physical Only&nbsp;</FONT></B></TD>
+<TD><FONT SIZE=2 FACE="Arial">NO&nbsp;</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP WIDTH=20%% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Do Not Generate&nbsp;</FONT></B></TD>
+<TD><FONT SIZE=2 FACE="Arial">False&nbsp;</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP WIDTH=20%% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Owner&nbsp;</FONT></B></TD>
+<TD><FONT SIZE=2 FACE="Arial">dbo&nbsp;</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP WIDTH=20%% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Definition&nbsp;</FONT></B></TD>
+<TD><FONT SIZE=2 FACE="Arial"><PRE><FONT SIZE=2 FACE="Arial"></FONT></PRE>&nbsp;</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP WIDTH=20%% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Note&nbsp;</FONT></B></TD>
+<TD><FONT SIZE=2 FACE="Arial"><PRE><FONT SIZE=2 FACE="Arial"></FONT></PRE>&nbsp;</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP WIDTH=20%% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">PreSQL&nbsp;</FONT></B></TD>
+<TD><TT>&nbsp;</TT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP WIDTH=20%% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">DDL Code&nbsp;</FONT></B></TD>
+<TD><TT><TT>CREATE TABLE dbo.PEDIDO(</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp PedidoId&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp int&nbsp&nbsp&nbsp&nbsp&nbsp IDENTITY(1,1),</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp Fecha&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp date&nbsp&nbsp&nbsp&nbsp NOT NULL,</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp CLIENTES_ClienteId&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp int&nbsp&nbsp&nbsp&nbsp&nbsp NOT NULL,</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp ASPNETUSER_NombreNetUserId&nbsp&nbsp&nbsp&nbsp int&nbsp&nbsp&nbsp&nbsp&nbsp NOT NULL,</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp CONSTRAINT PEDIDO_PK PRIMARY KEY CLUSTERED (PedidoId), </TT><BR><TT>&nbsp&nbsp&nbsp&nbsp CONSTRAINT PEDIDO_ASPNETUSER_FK FOREIGN KEY (ASPNETUSER_NombreNetUserId)</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp REFERENCES dbo.ASPNETUSER(NombreNetUserId),</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp CONSTRAINT PEDIDO_CLIENTES_FK FOREIGN KEY (CLIENTES_ClienteId)</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp REFERENCES dbo.CLIENTES(ClienteId)</TT><BR><TT>)</TT><BR><TT></TT><BR><TT>go</TT><BR>&nbsp;</TT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP WIDTH=20%% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">PostSQL&nbsp;</FONT></B></TD>
+<TD><TT>&nbsp;</TT></TD>
+</TR>
+</TABLE>
+<P>
+<TABLE WIDTH=100% CELLPADDING=3 BORDER=2>
+<TR>
+<TD VALIGN=TOP BGCOLOR="LIGHTGREY" ><B><FONT SIZE=4 FACE="Arial">PEDIDO Columns&nbsp;</FONT></B></TD>
+</TR>
+</TABLE>
+<TABLE WIDTH=100% CELLPADDING=2 BORDER=2>
+<TR>
+<TD VALIGN=TOP  WIDTH=20% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">ColumnName&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=20% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Domain&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=18% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Datatype&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=7% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">NULL&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=46% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Definition&nbsp;</FONT></B></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"><A HREF = "Tbl_d6ec8ac544ab48948866f1ed83f1510c_Attr.htm#Attr_6ebd6aeb895342cbad8918d160a49285">PedidoId</A><img src="../Support/Gif/pk.gif" alt="(PK)">&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">int&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">NO&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"><PRE><FONT SIZE=2 FACE="Arial">Identificador unico del pedido</FONT></PRE>&nbsp;</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"><A HREF = "Tbl_d6ec8ac544ab48948866f1ed83f1510c_Attr.htm#Attr_8a4a3dde477d4c8ebcf97e8b2d71db2b">Fecha</A>&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">date&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">NO&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"><PRE><FONT SIZE=2 FACE="Arial">Indica la fecha en la que se realizo el pedido</FONT></PRE>&nbsp;</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"><A HREF = "Tbl_d6ec8ac544ab48948866f1ed83f1510c_Attr.htm#Attr_01e9f0bb611243009a21438eea26e71b">CLIENTES_ClienteId</A><img src="../Support/Gif/fk.gif" alt="(FK)">&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">int&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">NO&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"><PRE><FONT SIZE=2 FACE="Arial">Identificador unico de cliente</FONT></PRE>&nbsp;</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"><A HREF = "Tbl_d6ec8ac544ab48948866f1ed83f1510c_Attr.htm#Attr_828042457d514fb3a506f4566fc514a5">ASPNETUSER_NombreNetUserId</A><img src="../Support/Gif/fk.gif" alt="(FK)">&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">int&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">NO&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"><PRE><FONT SIZE=2 FACE="Arial">Identificador unico de empleado segun su rol</FONT></PRE>&nbsp;</FONT></TD>
+</TR>
+</TABLE>
+<P>
+<TABLE WIDTH=100% CELLPADDING=3 BORDER=2>
+<TR>
+<TD VALIGN=TOP BGCOLOR="LIGHTGREY" ><B><FONT SIZE=4 FACE="Arial">PEDIDO Primary and Unique Keys&nbsp;</FONT></B></TD>
+</TR>
+</TABLE>
+<TABLE WIDTH=100% CELLPADDING=2 BORDER=2>
+<TR>
+<TD VALIGN=TOP  WIDTH=22% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Key Name&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=22% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Key Type&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=50% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Keys&nbsp;</FONT></B></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">PEDIDO_PK&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">PrimaryKey&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">PedidoId&nbsp;</FONT></TD>
+</TR>
+</TABLE>
+<P>
+<TABLE WIDTH=100% CELLPADDING=3 BORDER=2>
+<TR>
+<TD VALIGN=TOP BGCOLOR="LIGHTGREY" ><B><FONT SIZE=4 FACE="Arial">PEDIDO Foreign Keys&nbsp;</FONT></B></TD>
+</TR>
+</TABLE>
+<TABLE WIDTH=100% CELLPADDING=3 BORDER=2>
+<TR>
+<TD VALIGN=TOP BGCOLOR="LIGHTGREY" ><B><FONT SIZE=3 FACE="Arial">Parent Relationships:&nbsp;</FONT></B></TD>
+</TR>
+</TABLE>
+<TABLE WIDTH=100% CELLPADDING=2 BORDER=2>
+<TR>
+<TD VALIGN=TOP  WIDTH=13% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Table Name&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=8% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Type&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=13% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Cardinality&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=13% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Constraint Name&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=13% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">VerbPhrase&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=13% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">InversePhrase&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=13% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Foreign Keys&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=6% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Is Supertype&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=6% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Not For Replication&nbsp;</FONT></B></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"><A HREF = "./Tbl_8e2538640ca64f6b8bee9960976cd5ed.htm">ASPNETUSER</A>&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">Non-Identifying&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">One To Zero or More&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"><A HREF = "Submodel_07a13dbbb7d148f98d7458b2d85abf7b_Rel.htm#Rel_49a656b1ab1c4b2b88235e7d3ea4ed22">PEDIDO_ASPNETUSER_FK</A>&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">ASPNETUSER_NombreNetUserId&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">NO&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">NO&nbsp;</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"><A HREF = "./Tbl_0504b93c2cb243d99b12a917a9b21593.htm">CLIENTES</A>&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">Non-Identifying&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">One To Zero or More&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"><A HREF = "Submodel_07a13dbbb7d148f98d7458b2d85abf7b_Rel.htm#Rel_52f27c677fc14a7bba5765ec1726bae1">PEDIDO_CLIENTES_FK</A>&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">CLIENTES_ClienteId&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">NO&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">NO&nbsp;</FONT></TD>
+</TR>
+</TABLE>
+<TABLE WIDTH=100% CELLPADDING=3 BORDER=2>
+<TR>
+<TD VALIGN=TOP BGCOLOR="LIGHTGREY" ><B><FONT SIZE=3 FACE="Arial">Child Relationships:&nbsp;</FONT></B></TD>
+</TR>
+</TABLE>
+<TABLE WIDTH=100% CELLPADDING=2 BORDER=2>
+<TR>
+<TD VALIGN=TOP  WIDTH=13% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Table Name&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=8% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Type&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=13% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Cardinality&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=13% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Constraint Name&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=13% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">VerbPhrase&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=13% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">InversePhrase&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=13% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Foreign Keys&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=6% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Is Subtype&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=6% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Not For Replication&nbsp;</FONT></B></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"><A HREF = "./Tbl_9c13c0a99cc84277b1cb12ee0e564465.htm">DETALLEPEDIDO</A>&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">Non-Identifying&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">One To Zero or More&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"><A HREF = "Submodel_07a13dbbb7d148f98d7458b2d85abf7b_Rel.htm#Rel_49e0be23dec4401a84f17bfbf9fd6187">DETALLEPEDIDO_PEDIDO_FK</A>&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">NO&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">NO&nbsp;</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"><A HREF = "./Tbl_b7758a1eccf147f18e5cc59c34ca5ae5.htm">STATUSPEDIDO</A>&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">Non-Identifying&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">One To Zero or More&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"><A HREF = "Submodel_07a13dbbb7d148f98d7458b2d85abf7b_Rel.htm#Rel_093892ce11b342dc8b2c6391de0491ac">STATUSPEDIDO_PEDIDO_FK</A>&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">NO&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">NO&nbsp;</FONT></TD>
+</TR>
+</TABLE>
+<P>
+<TABLE WIDTH=100% CELLPADDING=3 BORDER=2>
+<TR>
+<TD VALIGN=TOP BGCOLOR="LIGHTGREY" ><B><FONT SIZE=4 FACE="Arial">PEDIDO Check Constraints&nbsp;</FONT></B></TD>
+</TR>
+</TABLE>
+<TABLE WIDTH=100% CELLPADDING=2 BORDER=2>
+<TR>
+<TD VALIGN=TOP  WIDTH=22% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Check Constraint Name&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=66% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">CheckConstraint&nbsp;</FONT></B></TD>
+</TR>
+</TABLE>
+<P>
+<TABLE WIDTH=100% CELLPADDING=3 BORDER=2>
+<TR>
+<TD VALIGN=TOP BGCOLOR="LIGHTGREY" ><B><FONT SIZE=4 FACE="Arial">PEDIDO Storage&nbsp;</FONT></B></TD>
+</TR>
+</TABLE>
+<TABLE WIDTH=100% CELLPADDING=2 BORDER=2>
+<TR>
+<TD VALIGN=TOP  WIDTH=22% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">STORAGE OPTION&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=60% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">STORAGE VALUE&nbsp;</FONT></B></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">Filegroup&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">PRIMARY&nbsp;</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">Text Image File Group&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">&nbsp;</FONT></TD>
+</TR>
+</TABLE>
+</TABLE>
+</TABLE>
+<P>
+<TABLE WIDTH=100% CELLPADDING=3 BORDER=2>
+<TR>
+<TD VALIGN=TOP BGCOLOR="LIGHTGREY" ><B><FONT SIZE=4 FACE="Arial">PEDIDO Growth Metrics&nbsp;</FONT></B></TD>
+</TR>
+</TABLE>
+<TABLE WIDTH=100% CELLPADDING=2 BORDER=2>
+<TR>
+<TD VALIGN=TOP  WIDTH=20% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">TABLE METRIC&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=60% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">TABLE METRIC VALUE&nbsp;</FONT></B></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">Current Row Count&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">0&nbsp;</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">Growth&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">Static&nbsp;</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">Growth Type&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">N/A&nbsp;</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">Growth Period&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">N/A&nbsp;</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">Maximum Rows&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">0&nbsp;</FONT></TD>
+</TR>
+</TABLE>
+<P>
+<TABLE WIDTH=100% CELLPADDING=3 BORDER=2>
+<TR>
+<TD VALIGN=TOP BGCOLOR="LIGHTGREY" ><B><FONT SIZE=4 FACE="Arial">PEDIDO Object Permissions&nbsp;</FONT></B></TD>
+</TR>
+</TABLE>
+<TABLE WIDTH=100% CELLPADDING=2 BORDER=2>
+<TR>
+<TD VALIGN=TOP  WIDTH=22% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">User/Role Name&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=22% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Grantee Type&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=22% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Permission Type&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=22% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Action Type&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=22% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Is Action Extended&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=22% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Is System&nbsp;</FONT></B></TD>
+</TR>
+<P>
+<TABLE WIDTH=100% CELLPADDING=3 BORDER=2>
+<TR>
+<TD VALIGN=TOP BGCOLOR="LIGHTGREY" ><B><FONT SIZE=4 FACE="Arial">PEDIDO Security Types&nbsp;</FONT></B></TD>
+</TR>
+</TABLE>
+<TABLE WIDTH=100% CELLPADDING=2 BORDER=2>
+<TR>
+<TD VALIGN=TOP  WIDTH=30% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Name&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=46% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Current Value&nbsp;</FONT></B></TD>
+</TR>
+</TABLE>
+<P>
+<TABLE WIDTH=100% CELLPADDING=3 BORDER=2>
+<TR>
+<TD VALIGN=TOP BGCOLOR="LIGHTGREY" ><B><FONT SIZE=4 FACE="Arial">PEDIDO Bound Attachments&nbsp;</FONT></B></TD>
+</TR>
+</TABLE>
+<TABLE WIDTH=100% CELLPADDING=2 BORDER=2>
+<TR>
+<TD VALIGN=TOP  WIDTH=30% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Name&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=46% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Current Value&nbsp;</FONT></B></TD>
+</TR>
+</TABLE>
+<P>
+<TABLE WIDTH=100% CELLPADDING=3 BORDER=2>
+<TR>
+<TD VALIGN=TOP BGCOLOR="LIGHTGREY" ><B><FONT SIZE=4 FACE="Arial">PEDIDO Where Used - Model Usage&nbsp;</FONT></B></TD>
+</TR>
+</TABLE>
+<TABLE WIDTH=100% CELLPADDING=2 BORDER=2>
+<TR>
+<TD VALIGN=TOP  WIDTH=18% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Mapped Object&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=8% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Is User Defined?&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=20% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Denormalization Mappings&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=27% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Description&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=27% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Bound Attachments&nbsp;</FONT></B></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"><A HREF = ./Model_29ca53bdb23f4abd86193dbd87a1e7b3.htm>Logical</A><BR><A HREF = ./Tbl_5029856565664f6a9ce5651602066ac1.htm>dbo.PEDIDO</A>&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">NO&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">&nbsp;</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"><A HREF = ./Model_a0b7c12521684bdd9cab15443bbb0fff.htm>Physical</A> (Microsoft SQL Server)<BR><A HREF = ./Tbl_d6ec8ac544ab48948866f1ed83f1510c.htm>dbo.PEDIDO</A>&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">NO&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">&nbsp;</FONT></TD>
+</TR>
+</TABLE>
+<P>
+<TABLE WIDTH=100% CELLPADDING=3 BORDER=2>
+<TR>
+<TD VALIGN=TOP BGCOLOR="LIGHTGREY" ><B><FONT SIZE=4 FACE="Arial">PEDIDO Where Used - Submodel Usage&nbsp;</FONT></B></TD>
+</TR>
+</TABLE>
+<TABLE WIDTH=100% CELLPADDING=2 BORDER=2>
+<TR>
+<TD VALIGN=TOP  WIDTH=40% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Model&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=60% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Submodel Usage&nbsp;</FONT></B></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"><A HREF = ./Model_29ca53bdb23f4abd86193dbd87a1e7b3.htm>Logical</A>&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"><A HREF = ./Submodel_9ec768088f21463e9d9c196b147fbd4e.htm>Main Model</A>&nbsp;</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"><A HREF = ./Model_a0b7c12521684bdd9cab15443bbb0fff.htm>Physical</A> (Microsoft SQL Server)&nbsp;</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"><A HREF = ./Submodel_07a13dbbb7d148f98d7458b2d85abf7b.htm>Main Model</A>&nbsp;</FONT></TD>
+</TR>
+</TABLE>
+<P>
+<TABLE WIDTH=100% CELLPADDING=3 BORDER=2>
+<TR>
+<TD VALIGN=TOP BGCOLOR="LIGHTGREY" ><B><FONT SIZE=4 FACE="Arial">PEDIDO Data Movement Rules&nbsp;</FONT></B></TD>
+</TR>
+</TABLE>
+<TABLE WIDTH=100% CELLPADDING=2 BORDER=2>
+<TR>
+<TD VALIGN=TOP  WIDTH=30% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Name&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=10% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Type&nbsp;</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=46% bgcolor="#87BCFF"><B><FONT SIZE=2 FACE="Arial">Rule Text/Value&nbsp;</FONT></B></TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>
