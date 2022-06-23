@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TIPOTRANSACCION_TRANSACCION" directorySegmentName="seg_0" id="B62EE381-5289-AF0D-ECFE-D834A3B7D796">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 21:26:54 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<sourcePk>18C1F113-1956-2C5D-648C-0E00B507EB19</sourcePk>
+<targetPk>B62F3FFE-1D34-076A-C83D-84B6ED5E9497</targetPk>
+<identifying>false</identifying>
+<nameOnSource>TIENE</nameOnSource>
+<nameOnTarget>PERTENECE A</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F8828660-CF42-693A-74E2-C17D0F1E3DA6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>67E3AF18-13AE-2C50-C339-688637B197CA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

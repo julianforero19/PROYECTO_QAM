@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="05899365-5564-E757-B543-CB7B3312F465" name="SUELDO">
+<createdBy>julid</createdBy>
+<createdTime>2022-03-18 15:51:41 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SueldoId" id="35A4D87D-05E1-21E3-EB80-243A2C9FFD0B">
+<createdBy>julid</createdBy>
+<createdTime>2022-03-18 15:51:41 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<importedID>A6F7620D-2F89-9D64-DFC3-CD888856DFA0</importedID>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaContrato" id="7DE22428-FE02-2F45-3FA0-644834DB6162">
+<createdBy>julid</createdBy>
+<createdTime>2022-03-18 15:51:41 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<importedID>FCC48755-F3CD-DBE4-1839-C2AA6CFA1EDA</importedID>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaFinalizacion" id="6B8E1256-EF85-49D0-B2F6-0FF01D1B37DC">
+<createdBy>julid</createdBy>
+<createdTime>2022-03-18 15:51:41 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<importedID>992258F0-AA31-B16D-18D2-94F45788FA96</importedID>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SueldoMensual" id="7E53A973-23CD-403B-C377-A9E3603C57F1">
+<createdBy>julid</createdBy>
+<createdTime>2022-03-18 15:51:41 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<importedID>91DF7D6B-53D4-A893-0BBA-943AC3F1678D</importedID>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ObjetoContrato" id="8FCACA0F-412E-95C1-D4C1-95AB3A58E6A7">
+<createdBy>julid</createdBy>
+<createdTime>2022-03-18 15:51:41 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<importedID>564FF5DA-ABB8-CC54-502A-88BFE420C450</importedID>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SalarioTotal" id="3F24AA40-FCA3-FA90-B907-DBB3C0FFA14D">
+<createdBy>julid</createdBy>
+<createdTime>2022-03-18 15:51:41 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<importedID>FB9656CF-A14B-BA5B-3401-62B17FB11EDD</importedID>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estado" id="69A5C682-B663-76A4-1F08-81898377A3C9">
+<createdBy>julid</createdBy>
+<createdTime>2022-03-18 15:51:41 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<importedID>44798E6C-EDB7-E258-8C59-1B035060CFBE</importedID>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NombreNetUserId" id="187C9FE6-FE30-75F3-6D08-F8D441E3AF58">
+<createdBy>julid</createdBy>
+<createdTime>2022-03-18 15:51:41 UTC</createdTime>
+<generatorID>B88AF89C-2318-CABE-7FD3-BC9A947C3214</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<importedID>10629D3D-951F-95FF-3816-30BD306E9A77</importedID>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<referedAttribute>2E54B3AE-12F0-E897-B2D0-42DD9FDC7B20</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3E3E787A-A1E4-683F-4B1D-C32EF1B0448A" name="SUELDO PK">
+<createdBy>julid</createdBy>
+<createdTime>2022-03-18 15:51:41 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>35A4D87D-05E1-21E3-EB80-243A2C9FFD0B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

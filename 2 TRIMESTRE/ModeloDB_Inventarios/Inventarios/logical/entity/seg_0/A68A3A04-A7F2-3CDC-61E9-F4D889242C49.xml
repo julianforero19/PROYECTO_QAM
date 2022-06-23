@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A68A3A04-A7F2-3CDC-61E9-F4D889242C49" name="STOCK">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 19:48:45 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="StockId" id="48CC149D-7A0C-4DD6-5841-442DAF87F88D">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 19:49:07 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaIngresoStock" id="7E822529-00E3-4094-70C8-FEAAFFE01F01">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 19:49:37 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CantidadStockIdeal" id="5B72D6B6-3F17-D52E-9CF5-821FEC848118">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 19:51:26 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CantidadAlarma" id="BA8BA974-F390-11FA-33D5-8344212DF0F0">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 19:53:36 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CantidadStockReal" id="E8FEC1B9-1FF2-875F-6D48-F0867CCA0CC0">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 19:54:27 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProductoId" id="894A062C-BB12-103E-1EA1-2D8989ABD742">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 19:57:32 UTC</createdTime>
+<generatorID>59DBDC63-D307-55B7-01D2-491E5B17D541</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<referedAttribute>0029C069-A239-EC9F-C44D-BF27C9404534</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="31EB83F7-B1E2-F1B6-EC7E-F1086140911E" name="STOCK PK">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 19:49:36 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>48CC149D-7A0C-4DD6-5841-442DAF87F88D</attributeRef>
+<attributeRef>894A062C-BB12-103E-1EA1-2D8989ABD742</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

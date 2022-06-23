@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9A0B1D92-E65F-A436-3806-9E20543A53FE" name="UNIDADMEDIDA">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 18:50:47 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="UnidaMedidaId" id="87B559FE-7719-5E1E-64E6-B3CA318EFBEA">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 18:51:08 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="030A06D3-4910-8634-29C9-4C987EE0EDC3">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 18:51:54 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>1024 CHAR</dataTypeSize>
+<ownDataTypeParameters>1024 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estado" id="14BC0EC8-7577-1CBD-5630-D5EE09B41620">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 18:52:34 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5CA98FC6-4FF8-6634-38CD-E9A971E84D24" name="UnidadesDeMedida PK">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 18:51:57 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>87B559FE-7719-5E1E-64E6-B3CA318EFBEA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

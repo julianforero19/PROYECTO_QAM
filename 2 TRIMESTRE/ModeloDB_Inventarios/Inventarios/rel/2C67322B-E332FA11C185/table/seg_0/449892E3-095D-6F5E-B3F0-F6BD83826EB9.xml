@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="449892E3-095D-6F5E-B3F0-F6BD83826EB9" name="UNIDADMEDIDA">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>9A0B1D92-E65F-A436-3806-9E20543A53FE</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UnidaMedidaId" id="68A520D1-0216-9C26-1308-1FEDE9EBE03F">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>87B559FE-7719-5E1E-64E6-B3CA318EFBEA</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="A4A64F7C-8DB7-CA98-DAFC-DA097E49EF03">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>030A06D3-4910-8634-29C9-4C987EE0EDC3</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>1024 CHAR</dataTypeSize>
+<ownDataTypeParameters>1024 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="DC4627AF-59E3-BC56-8EE3-54815CE89E3A">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>14BC0EC8-7577-1CBD-5630-D5EE09B41620</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="876A9C52-3EEA-313C-CEF6-172054F308E1" name="UNIDADMEDIDA_PK">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>5CA98FC6-4FF8-6634-38CD-E9A971E84D24</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68A520D1-0216-9C26-1308-1FEDE9EBE03F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

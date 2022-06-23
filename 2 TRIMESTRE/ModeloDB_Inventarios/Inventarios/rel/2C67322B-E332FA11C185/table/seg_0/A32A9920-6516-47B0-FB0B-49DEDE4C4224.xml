@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A32A9920-6516-47B0-FB0B-49DEDE4C4224" name="TURNO">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>C4B030DB-215E-ACAE-0683-FC0BA7C54339</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TurnoId" id="4BAD357A-6109-70C8-0F91-94001DB26145">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>E2D5B965-67E6-4726-7CCF-6C6AE7E5999F</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaTurno" id="0309C074-9206-5E74-865D-0847A931D6B7">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>D2910302-5ECB-68F0-2A1E-E98521A20E0F</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HoraIngreso" id="01410574-B078-D39F-AB62-326129FAC745">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>0E3B0992-1085-079E-2E23-6F3EB4EA96F7</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HoraIngreso_1" id="FD022CB2-A015-E800-436C-723A69B8FE9E">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>0FA6FA3D-12BF-A9B2-B57D-FE74DF5537D2</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="799A04C8-457E-FF2D-3552-93BAC5581998">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>E899AE14-BCD3-DBEC-AF4C-8614D51EB998</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AspNetUserId" id="058C17E4-3D45-465C-9345-C27A08478948">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>F0F1ED12-5C24-0560-AF79-B1CD240ADB7E</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLEADOS_NombreNetUserId" id="EF9443A7-0676-709B-F2C3-B999F1F46ADE">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>5F55F9EE-D61E-A264-25FA-207542B28C04</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B84823F-00D6-C53F-2E87-56B0236E79C1" referredColumn="AB2D4947-65F2-C9DE-912E-AAB36FC650D6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1FF8E9A5-DA81-E65F-8CD2-6E7C8513912D" name="TURNO_PK">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>CB4D12D7-C222-7F8A-9A07-A0E84D243350</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BAD357A-6109-70C8-0F91-94001DB26145"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A18EC93-9695-3232-13CB-3871A225FA42" name="TURNO_EMPLEADOS_FK">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>D08EDBD1-8EB8-02FD-90C9-E08BBEAD5AE9</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF9443A7-0676-709B-F2C3-B999F1F46ADE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

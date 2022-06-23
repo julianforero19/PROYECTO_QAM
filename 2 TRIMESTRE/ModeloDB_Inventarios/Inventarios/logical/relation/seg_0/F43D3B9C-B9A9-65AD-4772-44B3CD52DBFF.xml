@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ASPNETUSER_ASPNETUSERCLAIM" directorySegmentName="seg_0" id="F43D3B9C-B9A9-65AD-4772-44B3CD52DBFF">
+<createdBy>julid</createdBy>
+<createdTime>2022-03-18 15:51:41 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<sourcePk>90B5D49F-AEDB-F661-26E0-AAD988E59F93</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>68F2FA1B-10A9-659E-870C-CBFBC14F4319</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8804E107-C00D-27E4-8CEF-4C61A5A11248</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

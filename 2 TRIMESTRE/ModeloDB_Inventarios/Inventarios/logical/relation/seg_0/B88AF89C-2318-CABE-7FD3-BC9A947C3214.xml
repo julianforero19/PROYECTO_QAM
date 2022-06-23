@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMPLEADOS_SUELDO" directorySegmentName="seg_0" id="B88AF89C-2318-CABE-7FD3-BC9A947C3214">
+<createdBy>julid</createdBy>
+<createdTime>2022-03-18 15:51:41 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<sourcePk>90B5D49F-AEDB-F661-26E0-AAD988E59F93</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7C60E731-420C-E755-E77E-EDB56D2F1D14</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>05899365-5564-E757-B543-CB7B3312F465</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CE87C09-E5B7-E695-B0D2-7CED0C59A773" name="ASPNETUSERCLAIM">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>8804E107-C00D-27E4-8CEF-4C61A5A11248</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="6A3FC830-8BE9-8899-7BFA-41A2375C4B09">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>76C13E6A-3A72-A3F9-1510-0E4EE428C8CD</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ClaimType" id="466ADBBE-39ED-6359-F57B-039F9F006AEA">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>F611AEE1-EA9A-BE70-51E6-4021C42728FB</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ClaimValue" id="7D798249-BBCA-82D1-92BB-9C85AD4303EF">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>265F9E4C-13BB-3A5D-75A3-2A170F57AFA0</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AspNetUserId" id="1CC63423-3A8F-3BE5-A5B4-DEA51AAAFCBA">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>516A2CB2-EBF3-FB35-F33E-A3B03CFD28A5</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASPNETUSER_NombreNetUserId" id="B5483A2F-EDCB-CA42-2D09-FFDDD1914F6D">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>374FE899-3E5F-EB2A-08DB-D1C90E66EE8A</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7A5BCC6-8843-4843-11A2-16237A4C6A20" referredColumn="B59E374B-E3A5-3B3C-600E-4BE006C68A72"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48FD0F86-E76B-5FED-E7CB-C4F484B7141E" name="ASPNETUSERCLAIM_PK">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>B7CB7FB3-765C-2242-E601-7C0E8B47DDA2</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A3FC830-8BE9-8899-7BFA-41A2375C4B09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DE14590-9642-B4DE-1B77-F13E834C378D" name="ASPNETUSERCLAIM_ASPNETUSER_FK">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>F43D3B9C-B9A9-65AD-4772-44B3CD52DBFF</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5483A2F-EDCB-CA42-2D09-FFDDD1914F6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="67E3AF18-13AE-2C50-C339-688637B197CA" name="TRANSACCION">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 20:55:30 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TransaccionId" id="0C2A2892-CFFC-C535-1A96-DB9556DB7A68">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 20:55:54 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaTransaccion" id="89A66CAF-9290-DA83-DF60-B34E449E45F7">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 20:56:33 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CantidadProducto" id="DCC9BED1-D5ED-4E82-63F0-A361FB6252D0">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 20:57:17 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OtrosDeatalles" id="56C07AB0-BD14-8EC4-71B7-4CDD3DC769E4">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 20:59:03 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>1024 CHAR</dataTypeSize>
+<ownDataTypeParameters>1024 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProductoId" id="253D68F6-7D7E-AA02-3804-A5EA5CB5EFB6">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 21:26:22 UTC</createdTime>
+<generatorID>3BDBD6C6-F046-8B4C-AFAA-5D202424028D</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<referedAttribute>0029C069-A239-EC9F-C44D-BF27C9404534</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TransaccionId1" id="579B3D21-42CA-C0D3-3073-9E64DDF3E957">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 21:26:54 UTC</createdTime>
+<generatorID>B62EE381-5289-AF0D-ECFE-D834A3B7D796</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<referedAttribute>94E8F33A-DAF1-E8C4-1076-243D7FDCCAAB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B62F3FFE-1D34-076A-C83D-84B6ED5E9497" name="TRANSACCION PK">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 20:56:28 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0C2A2892-CFFC-C535-1A96-DB9556DB7A68</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

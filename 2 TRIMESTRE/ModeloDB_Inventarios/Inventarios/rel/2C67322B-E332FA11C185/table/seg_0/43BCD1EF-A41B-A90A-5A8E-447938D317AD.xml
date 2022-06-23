@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43BCD1EF-A41B-A90A-5A8E-447938D317AD" name="SUELDO">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>05899365-5564-E757-B543-CB7B3312F465</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SueldoId" id="7004F0CC-7371-1747-E396-257E440561E0">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>35A4D87D-05E1-21E3-EB80-243A2C9FFD0B</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaContrato" id="1EF22025-A478-9F95-C882-E7AADAF5999C">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>7DE22428-FE02-2F45-3FA0-644834DB6162</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaFinalizacion" id="1D8A8A1C-0C62-4B61-4F5A-A9ED8B5E1DAF">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>6B8E1256-EF85-49D0-B2F6-0FF01D1B37DC</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SueldoMensual" id="3CE18317-AEAA-80EA-7778-0C0E056F3638">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>7E53A973-23CD-403B-C377-A9E3603C57F1</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ObjetoContrato" id="40D4D3BB-1076-9BE1-4D03-ABB5976405C3">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>8FCACA0F-412E-95C1-D4C1-95AB3A58E6A7</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SalarioTotal" id="D8355E4A-85A6-CA84-0E82-F4B5AB730A7A">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>3F24AA40-FCA3-FA90-B907-DBB3C0FFA14D</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="4C6DA12A-E22D-1630-6344-2727E26D5BC0">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>69A5C682-B663-76A4-1F08-81898377A3C9</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLEADOS_NombreNetUserId" id="53D65BF0-C1C8-BA23-B720-03A92876B4CC">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>187C9FE6-FE30-75F3-6D08-F8D441E3AF58</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08A89E30-1F5B-78C0-EB72-F56405366A45" referredColumn="AB2D4947-65F2-C9DE-912E-AAB36FC650D6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EADC4E9-A66E-5A9E-D127-ADEA9B151BD7" name="SUELDO_PK">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>3E3E787A-A1E4-683F-4B1D-C32EF1B0448A</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7004F0CC-7371-1747-E396-257E440561E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D689E937-DEBE-94FF-B18B-4EBCD67EE7E7" name="SUELDO_EMPLEADOS_FK">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>B88AF89C-2318-CABE-7FD3-BC9A947C3214</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53D65BF0-C1C8-BA23-B720-03A92876B4CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
