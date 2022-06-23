@@ -1,0 +1,9 @@
+SELECT        PRODUCTO.Nombre AS PRODUCTO, MARCA.Nombre AS MARCA, STOCK.CantidadStockReal AS STOCK, UNIDADMEDIDA.Nombre AS [UNIDAD MEDIDA], PRECIO.PrecioVenta AS [PRECIO VENTA], 
+                         SUBCATEGORIA.Nombre AS SUBCATEGORIA, CATEGORIA.Nombre AS CATEGORIA
+FROM            PRODUCTO INNER JOIN
+                         MARCA ON PRODUCTO.MARCA_MarcaId = MARCA.MarcaId INNER JOIN
+                         STOCK ON PRODUCTO.ProductoId = STOCK.PRODUCTO_ProductoId INNER JOIN
+                         SUBCATEGORIA ON PRODUCTO.SUBCATEGORIA_SubCategoriaId = SUBCATEGORIA.SubCategoriaId INNER JOIN
+                         CATEGORIA ON SUBCATEGORIA.CATEGORIA_CategoriaId = CATEGORIA.CategoriaId INNER JOIN
+                         UNIDADMEDIDA ON PRODUCTO.UNIDADMEDIDA_UnidaMedidaId = UNIDADMEDIDA.UnidaMedidaId INNER JOIN
+                         PRECIO ON PRODUCTO.ProductoId = PRECIO.PRODUCTO_ProductoId
