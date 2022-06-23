@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05E85958-2DF5-EFAB-BC03-EBC70CB5EF0E" name="ADMINISTRADOR">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>8E26B097-938D-9795-4627-4BD1799E6084</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NombreNetUserId" id="A981E140-801A-6B61-0202-1A45327CC32F">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>2E54B3AE-12F0-E897-B2D0-42DD9FDC7B20</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A16B4A36-2AE6-DB38-60FA-1BD76DBF8316" referredColumn="AB2D4947-65F2-C9DE-912E-AAB36FC650D6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF7290EC-0C2D-B8B6-D3CB-CE9A449AA2C0" name="ADMINISTRADOR_PK">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>90B5D49F-AEDB-F661-26E0-AAD988E59F93</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A981E140-801A-6B61-0202-1A45327CC32F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A95C282-DBBA-9D56-C872-56211683772E" name="ADMINISTRADOR_EMPLEADOS_FK">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>BE87801D-5AFC-7BC2-4F59-3346B57B8525</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A981E140-801A-6B61-0202-1A45327CC32F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

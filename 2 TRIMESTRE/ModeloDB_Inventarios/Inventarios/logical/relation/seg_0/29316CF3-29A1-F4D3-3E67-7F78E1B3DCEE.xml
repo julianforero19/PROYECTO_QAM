@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ASPNETUSER_ASPNETUSERROLE" directorySegmentName="seg_0" id="29316CF3-29A1-F4D3-3E67-7F78E1B3DCEE">
+<createdBy>julid</createdBy>
+<createdTime>2022-03-18 15:51:41 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>68F2FA1B-10A9-659E-870C-CBFBC14F4319</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>97526211-036E-0F18-E5A9-797748C2B8DF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2706422C-40F5-BF82-AF59-6062BD3F7C94" name="DETALLEPEDIDO_PRODUCTO">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DETALLEPEDIDO_DetallePedidoId" id="47BA07D7-588D-B715-76FB-AC0A01197846">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA205E9E-1AC3-B7C3-9670-C30045C7E653" referredColumn="18367081-BE76-630E-07EA-179A40C8DE15"/>
+</associations>
+</Column>
+<Column name="PRODUCTO_ProductoId" id="D5F5BDC7-8D71-5B7E-9F15-22CBBE760118">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D12565F-90F0-9A8B-30FF-D696126A81CD" referredColumn="7661F4BB-3793-4569-653A-3D8DDD81D9EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B86B8EC9-D6E3-EA3B-C532-9FE3E78BE927" name="DETALLEPEDIDO_PRODUCTO_PK">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47BA07D7-588D-B715-76FB-AC0A01197846"/>
+<colUsage columnID="D5F5BDC7-8D71-5B7E-9F15-22CBBE760118"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A8972B4-0954-02F3-410B-3A09D645380E" name="DETALLEPEDIDO_PRODUCTO_DETALLEPEDIDO_FK">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>5036474C-94F4-42B8-5A69-E094519FCDCC</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47BA07D7-588D-B715-76FB-AC0A01197846"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F106051-B698-C80C-BEF0-F8D613E2FFB6" name="DETALLEPEDIDO_PRODUCTO_PRODUCTO_FK">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>5036474C-94F4-42B8-5A69-E094519FCDCC</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5F5BDC7-8D71-5B7E-9F15-22CBBE760118"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

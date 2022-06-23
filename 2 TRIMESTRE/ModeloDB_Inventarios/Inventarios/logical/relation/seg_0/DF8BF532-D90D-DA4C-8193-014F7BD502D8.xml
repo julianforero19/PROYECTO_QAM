@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="STATUSPEDIDO_PEDIDO" directorySegmentName="seg_0" id="DF8BF532-D90D-DA4C-8193-014F7BD502D8">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 21:37:57 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<sourcePk>2E9379AD-DAD8-732F-65B4-06214FDB8C8B</sourcePk>
+<targetPk>13AFF3CA-1314-F623-7A7F-E9AC3354FCB8</targetPk>
+<identifying>false</identifying>
+<nameOnSource>REISTRARSE EN</nameOnSource>
+<nameOnTarget>TIENE UN</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>9FA7F362-A3C1-0596-2921-444583AC4E17</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>80F55D41-1CEA-5214-5533-6AC588961A51</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

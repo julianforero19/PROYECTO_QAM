@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7BF933F9-86F9-9126-AE4D-39D5E10DC598" containerWithKeyObject="1674D100-5005-6EE9-2EA8-8807EFEDC3CB" localFKIndex="E60B1FCF-21EF-D758-A409-F945C8DF83A9" name="TRANSACCION_TIPOTRANSACCION_FK">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>B62EE381-5289-AF0D-ECFE-D834A3B7D796</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<referredTableLongName>TIPOTRANSACCION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0945D230-CD6B-9969-C8FD-22438E5B64CB</referredTableID>
+<keyObject>4CEDB5D9-4449-9D68-52DF-1659C66705DD</keyObject>
+<referredKeyID>4CEDB5D9-4449-9D68-52DF-1659C66705DD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TransaccionId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

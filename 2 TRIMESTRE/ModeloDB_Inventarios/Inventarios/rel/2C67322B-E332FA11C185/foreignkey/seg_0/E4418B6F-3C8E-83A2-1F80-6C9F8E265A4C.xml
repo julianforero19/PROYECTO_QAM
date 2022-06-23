@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E4418B6F-3C8E-83A2-1F80-6C9F8E265A4C" containerWithKeyObject="7A42B832-88B3-4CF1-95EF-5E25CC981636" localFKIndex="4C4DB86E-1C3B-CD81-851C-94EAA11DE789" name="PEDIDO_ASPNETUSER_FK">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>274DFBA8-38A9-6D97-1997-F4804E5899AA</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<referredTableLongName>ASPNETUSER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6E88A940-62F0-EA29-BCF5-015FE6374C89</referredTableID>
+<keyObject>CAA171EF-A824-3928-1BE5-B06E87AB9F65</keyObject>
+<referredKeyID>CAA171EF-A824-3928-1BE5-B06E87AB9F65</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NombreNetUserId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

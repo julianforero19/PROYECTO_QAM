@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80F55D41-1CEA-5214-5533-6AC588961A51" name="PEDIDO">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 21:14:33 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PedidoId" id="E0EEA9C2-9618-A75A-5BAE-7D0F5BD46C98">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 21:15:04 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="BBDB0AF3-A647-797D-2FFC-0B3844AC0A1B">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 21:15:32 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ClienteId" id="E710961B-F74F-A731-D566-B22F2F8A54B0">
+<createdBy>julid</createdBy>
+<createdTime>2022-03-18 15:54:50 UTC</createdTime>
+<generatorID>4059056F-9113-520A-07D4-DE2C0C35B3E6</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<referedAttribute>49D7E255-FD11-C04E-6F3B-6A541256647A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NombreNetUserId" id="3F11BBFC-D354-94DD-5AFA-E387884FC223">
+<createdBy>julid</createdBy>
+<createdTime>2022-03-18 15:57:09 UTC</createdTime>
+<generatorID>274DFBA8-38A9-6D97-1997-F4804E5899AA</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<referedAttribute>2E54B3AE-12F0-E897-B2D0-42DD9FDC7B20</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="13AFF3CA-1314-F623-7A7F-E9AC3354FCB8" name="PEDIDO PK">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-08 21:15:30 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E0EEA9C2-9618-A75A-5BAE-7D0F5BD46C98</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

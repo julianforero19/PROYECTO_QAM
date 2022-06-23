@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3B84823F-00D6-C53F-2E87-56B0236E79C1" containerWithKeyObject="A32A9920-6516-47B0-FB0B-49DEDE4C4224" localFKIndex="1A18EC93-9695-3232-13CB-3871A225FA42" name="TURNO_EMPLEADOS_FK">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>D08EDBD1-8EB8-02FD-90C9-E08BBEAD5AE9</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<referredTableLongName>EMPLEADOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>77A445A3-77F3-438B-26BB-086A798C106C</referredTableID>
+<keyObject>663D06F1-DBC3-89DE-A518-795DE8824C15</keyObject>
+<referredKeyID>663D06F1-DBC3-89DE-A518-795DE8824C15</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NombreNetUserId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

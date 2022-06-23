@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18FFF39F-B43D-89F8-AF52-81475D01B820" name="PRODUCTO">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>261A4DCB-019E-6873-546A-EF05BA1F3341</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ProductoId" id="7661F4BB-3793-4569-653A-3D8DDD81D9EB">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>0029C069-A239-EC9F-C44D-BF27C9404534</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="9A0C39E2-B33B-6520-982A-DDD0FFD606D4">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>6260B425-03E9-FCC1-EE3E-8019C8692758</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>1024 CHAR</dataTypeSize>
+<ownDataTypeParameters>1024 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="012693BE-4E16-FB37-1A29-D0C8261CD899">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>646406BE-FF9B-ADE5-2F89-E7DE603B11B7</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>1024 CHAR</dataTypeSize>
+<ownDataTypeParameters>1024 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="D8D8E486-DE3C-1CE2-3F15-0AACC8885F36">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>9F710CD0-434D-E60C-7426-B95A1DE63192</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIDADMEDIDA_UnidaMedidaId" id="8B198DA9-C81A-8AAB-B6DF-49D95AEC8037">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>798EB20E-5D8D-EAC3-6645-74607072308B</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47418AA9-5888-9DEB-815F-219E05450155" referredColumn="68A520D1-0216-9C26-1308-1FEDE9EBE03F"/>
+</associations>
+</Column>
+<Column name="MARCA_MarcaId" id="8681DD9B-0501-D00B-CD59-95646D7D53B7">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>FBA0364D-3D6C-5E97-944C-ED544DB64C39</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9360AFF0-E3E8-5D4B-5F5D-8357075401D5" referredColumn="5C8D6203-3B3A-2060-058F-2701EAF4C5AF"/>
+</associations>
+</Column>
+<Column name="CodigoBarras" id="A13B3137-F73D-2407-3000-6E956AE6CA16">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>55C9A389-6286-BC80-F0AA-C1111C8D7BEE</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>24 CHAR</dataTypeSize>
+<ownDataTypeParameters>24 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Foto" id="D6912263-B60D-55A1-14B0-2F06FE1B8D52">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>BB338F7E-480D-A149-427D-A21589468F0E</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUBCATEGORIA_SubCategoriaId" id="02665429-8D62-5532-DD26-8A4751DC37E7">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>F73B9557-6A12-9B27-4CDE-9FADFCA47CE8</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4E2577D-3460-8FE9-D20B-21D77EE7C72F" referredColumn="A5B59B4D-58EA-8AB9-214F-39FD8C28B1F9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7831F706-6361-A3ED-FDFF-6C1FB07B17D0" name="PRODUCTO_PK">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>EF40695B-3E38-A492-5822-095A3CE24797</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7661F4BB-3793-4569-653A-3D8DDD81D9EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99549E5B-54D7-A3E5-591C-8076B5807532" name="PRODUCTO_MARCA_FK">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>3864E46E-160D-4D33-692B-76D4636708B6</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8681DD9B-0501-D00B-CD59-95646D7D53B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="944E140F-2EB4-FBC4-70D3-D23B4E8500A4" name="PRODUCTO_SUBCATEGORIA_FK">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>25538086-09DF-EC1C-1D83-17D36DFE9AFE</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02665429-8D62-5532-DD26-8A4751DC37E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE438099-7726-5494-DCF9-1F40EE843023" name="PRODUCTO_UNIDADMEDIDA_FK">
+<createdBy>Ambiente</createdBy>
+<createdTime>2022-03-23 20:59:29 UTC</createdTime>
+<generatorID>2D99613E-987D-0F87-C232-137E299BF7DA</generatorID>
+<ownerDesignName>Inventarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B198DA9-C81A-8AAB-B6DF-49D95AEC8037"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

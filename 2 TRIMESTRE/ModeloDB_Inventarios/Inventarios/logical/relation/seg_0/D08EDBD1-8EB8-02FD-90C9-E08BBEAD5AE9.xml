@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMPLEADOS_TURNO" directorySegmentName="seg_0" id="D08EDBD1-8EB8-02FD-90C9-E08BBEAD5AE9">
+<createdBy>julid</createdBy>
+<createdTime>2022-03-18 15:51:41 UTC</createdTime>
+<ownerDesignName>Inventarios</ownerDesignName>
+<engineerTo>
+<item key="2C67322B-0E39-B3DC-89E8-E332FA11C185" value="true"/>
+</engineerTo>
+<sourcePk>90B5D49F-AEDB-F661-26E0-AAD988E59F93</sourcePk>
+<targetPk>CB4D12D7-C222-7F8A-9A07-A0E84D243350</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7C60E731-420C-E755-E77E-EDB56D2F1D14</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C4B030DB-215E-ACAE-0683-FC0BA7C54339</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
