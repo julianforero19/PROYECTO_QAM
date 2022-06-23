@@ -3,7 +3,7 @@
 class factura
 {
 	private $pdo;
-	public function _CONSTRUCT()
+	public function __CONSTRUCT()
 	{
 		try{
 			$this->pdo =database::conectar();

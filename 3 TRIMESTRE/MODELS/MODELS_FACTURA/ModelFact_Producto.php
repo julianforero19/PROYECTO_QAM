@@ -3,7 +3,7 @@
 class fact_producto
 {
 	private $pdo;
-	public function _CONSTRUCT()
+	public function __CONSTRUCT()
 	{
 		try{
 			$this->pdo =database::conectar();
@@ -27,11 +27,11 @@ public function Insertar_fact_producto($id_factura_id, $id_producto_id, $cant_pr
 public function Update_fact_producto($id_factura_id, $id_factura_id2, $id_producto_id2, $id_producto_id, $cant_producto, $valor_producto)
 {
  		$sql = "UPDATE FACT_PRODUCTO SET 
- 			FACTURA_ID = '$id_factura_id',
- 			PRODUCTO_ID ='$id_producto_id',
+ 			ID_FACTURA_ID = '$id_factura_id',
+ 			ID_PRODUCTO_ID ='$id_producto_id',
  			CANT_PRODUCTO = '$cant_producto',
  			VALOR_PRODUCTO= '$valor_producto',
- 			WHERE FACTURA_ID,PRODUCTO_ID = '$id_factura_id2,id_producto_id2'";
+ 			WHERE ID_FACTURA_ID = '$id_factura_id2' AND ID_PRODUCTO_ID = 'id_producto_id2'";
 
  		$this->pdo->query($sql);
 
@@ -42,7 +42,7 @@ public function Update_fact_producto($id_factura_id, $id_factura_id2, $id_produc
 
 public function Delete_factura($id_factura_id,$id_producto_id)
 {
- 		$sql ="DELETE FROM FACTURA WHERE Name = '$id_factura_id,$id_producto_id'";
+ 		$sql ="DELETE FROM FACTURA WHERE ID_FACTURA_ID = '$id_factura_id' AND ID_PRODUCTO_ID = '$id_producto_id'";
 
 	$this->pdo->query($sql);
 

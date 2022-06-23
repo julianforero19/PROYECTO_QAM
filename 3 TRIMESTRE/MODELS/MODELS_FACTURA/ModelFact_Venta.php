@@ -3,7 +3,7 @@
 class fact_venta
 {
 	private $pdo;
-	public function _CONSTRUCT()
+	public function __CONSTRUCT()
 	{
 		try{
 			$this->pdo =database::conectar();
@@ -17,7 +17,7 @@ class fact_venta
 public function Insertar_fact_venta($id_fact_venta, $tdoc_empleado, $id_empleado, $id_cliente, $tdoc_cliente)
 {
 
-	$sql= "INSERT INTO FACT_VENTA (ID_FACT_VENTA,TDOC_EMPLEADO,ID_EMPLEADO,ID_CLIENTE,TDOC_CLIENTE) VALUES ('$id_fact_venta',$'tdoc_empleado','$id_empleado', '$id_cliente', '$tdoc_cliente')";
+	$sql= "INSERT INTO ID_FACT_VENTA (ID_FACT_VENTA,TDOC_EMPLEADO,ID_EMPLEADO,ID_CLIENTE,TDOC_CLIENTE) VALUES ('$id_fact_venta',$'tdoc_empleado','$id_empleado', '$id_cliente', '$tdoc_cliente')";
 
 	$this->pdo->query($sql);
 
@@ -42,7 +42,7 @@ public function Update_fact_venta($id_fact_venta, $id_fact_venta2, $tdoc_emplead
 
 public function Delete_fact_venta($id_fact_venta)
 {
- 		$sql ="DELETE FROM FACT_VENTA WHERE Name = '$id_fact_venta'";
+ 		$sql ="DELETE FROM ID_FACT_VENTA WHERE Name = '$id_fact_venta'";
 
 	$this->pdo->query($sql);
 
