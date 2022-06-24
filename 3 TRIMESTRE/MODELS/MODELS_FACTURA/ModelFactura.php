@@ -12,7 +12,7 @@ class factura
 			die($e->getMessage());
 		}
 	}
-}
+
 
 public function Insertar_factura($factura_id, $fecha_factura, $subtotal, $iva, $total_fac)
 {
@@ -50,6 +50,6 @@ public function Delete_factura($factura_id)
 		print"<script>alert(\"Registro Eliminado Exitosamente. \");window.location='index2.html';</script>";
 
 }
-
+}
 
 ?>
