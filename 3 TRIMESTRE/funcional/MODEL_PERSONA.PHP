@@ -21,7 +21,7 @@ public function Insertar_PERSONA($persona_id, $tipdoc_id, $pri_nombre_persona, $
 
 	$this->pdo->query($sql);
 
-	print"<script>alert(\"Registro Agregado exitosamente.\");window.location='index2.html';</script>";
+	print"<script>alert(\"Registro Agregado exitosamente.\");window.location='login.php';</script>";
 }
 
 public function Update_PERSONA($persona_id, $tipdoc_id,$tipdoc_id2,$pri_nombre_persona, $seg_nombre_persona, $pri_apellido_persona,$seg_apellido_persona,$direc_persona,$cel_persona,$correo_persona,$persona_id2)
