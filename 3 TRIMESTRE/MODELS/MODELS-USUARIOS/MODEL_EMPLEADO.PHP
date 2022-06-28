@@ -15,9 +15,10 @@ class EMPLEADO
 
 
 public function Insertar_EMPLEADO($empleado_id,$empleado_tdoc,$sueldo_empleado)
-{
+{ 
+	
 
-	$sql= "INSERT INTO EMPLEADO(EMPLEADO_ID,EMPLEADO_TDOC,SUELDO_EMPLEADO) VALUES ('$empleado_id','$empleado_tdoc','$sueldo_empleado')";
+	$sql = "INSERT INTO EMPLEADO(EMPLEADO_ID,EMPLEADO_TDOC,SUELDO_EMPLEADO) VALUES ('$empleado_id','$empleado_tdoc','$sueldo_empleado')";
 
 	$this->pdo->query($sql);
 
