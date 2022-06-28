@@ -1,4 +1,15 @@
-<?php include './layout/header.html'; ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>login</title>
+	<link href="./css/sb-admin-2.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+   
+	<div class="container">
+
 
         <!-- Outer Row -->
         <div class="row justify-content-center">
@@ -15,12 +26,12 @@
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">BIENVENIDO!</h1>
                                     </div>
-                                    <form class="user">
+                                    <form class="user" action="validacion_login.php" method="POST">
                                         <div class="form-group">
-                                            <input type="email" class="form-control form-control-user" id="usuario" placeholder="Ingrese su correo" required>
+                                            <input type="email" name="user" class="form-control form-control-user"  placeholder="Ingrese su correo"  required>
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" class="form-control form-control-user" id="Password" placeholder="Password" required>
+                                            <input type="password" name="pass" class="form-control form-control-user" placeholder="Password" required>
                                         </div>
                                         <div class="form-group">
                                             <div class="custom-control custom-checkbox small">
@@ -28,7 +39,7 @@
                                                 <label class="custom-control-label" for="customCheck">Recuerdame</label>
                                             </div>
                                         </div>
-                                        <a href="index.html" class="btn btn-primary btn-user btn-block">
+                                        <a href="validacion_login.php" class="btn btn-primary btn-user btn-block">
                                             Login
                                         </a>
                                     </form>
@@ -37,7 +48,7 @@
                                         <a class="small" href="forgot-password.html">Forgot Password?</a>
                                     </div>
                                     <div class="text-center">
-                                        <a class="small" href="register.html">Create an Account!</a>
+                                        <a class="small" href="./vista_registro_persona.php">Create an Account!</a>
                                     </div>
                                 </div>
                             </div>
@@ -49,4 +60,7 @@
 
         </div>
 
-<?php include './layout/footer.html'; ?>
+    </div>
+
+</body>
+</html>

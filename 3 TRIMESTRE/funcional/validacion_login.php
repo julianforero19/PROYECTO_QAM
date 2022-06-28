@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Validacion_Login</title>
-</head>
-<body>
 <?php 
 
 class login
@@ -14,7 +7,7 @@ class login
 
 			session_start();
 
-			require_once 'Conexion.php';
+			require_once './conexion/conexion.php';
 
 			//Logica
 
@@ -31,7 +24,7 @@ class login
 			}
 			if($cont==0)
 			{
-				print"<script>alert(\"Usuario y/o Password Incorrectas.\");window.location='Index.php';</script>";
+				print"<script>alert(\"Usuario y/o Password Incorrectas.\");window.location='index.php';</script>";
 			}
 
 			if($cont!=0)
@@ -49,29 +42,29 @@ class login
 
 				if(@$role == null)
 				{
-					print"<script>alert(\"El usuario no tiene asignado Rol\");window.location='Index.php';</script>";
+					print"<script>alert(\"El usuario no tiene asignado Rol\");window.location='index.php';</script>";
 				}
 
-				if (@$role == 'admin')
+				if (@$role == 'ADMINISTRADOR')
 				{
 					$_SESSION['active']=1;
-					header ('Location: index.html');
+					header ('Location: index.php');
 				}
 
-				elseif (@$role == 'cliente')
+				elseif (@$role == 'CLIENTE')
 				{
 					$_SESSION['active']=1;
-					header('Location: index.html');
+					header('Location: index.php');
 				}
-				elseif (@$role == 'empleado')
+				elseif (@$role == 'EMPLEADO')
 				{
 					$_SESSION['active']=1;
-					header('Location: index.html');
+					header('Location: index.php');
 				}
 
-				elseif(@$role == 'temporal')
+				elseif(@$role == 'TEMPORAL')
 				{
-					print"<script>alert(\"Usuario Temporal, Comuniquese al Administrador\");window.location='index.html';</script>";
+					print"<script>alert(\"Usuario Temporal, Comuniquese al Administrador\");window.location='index.php';</script>";
 				}
 
 			}//finalizacion conteo
@@ -83,5 +76,3 @@ class login
 	$Nuevo=new login();
 	$Nuevo->Login_user($_POST["user"],$_POST["pass"]);
 ?>
-</body>
-</html>
